@@ -1,0 +1,10 @@
+table.ui.table#my-table
+  thead
+    tr
+      th id
+      th content
+  tbody
+    tr( v-for="(element, index) of list" )
+      td {{ index }}
+      td {{ element }}
+
